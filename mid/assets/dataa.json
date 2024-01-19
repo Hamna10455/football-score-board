@@ -1,0 +1,980 @@
+{
+  "get": "fixtures",
+  "parameters": {
+      "live": "all"
+  },
+  "errors": [],
+  "results": 5,
+  "paging": {
+      "current": 1,
+      "total": 1
+  },
+  "response": [
+      {
+          "fixture": {
+              "id": 1021697,
+              "referee": null,
+              "timezone": "UTC",
+              "date": "2023-06-19T12:00:00+00:00",
+              "timestamp": 1687176000,
+              "periods": {
+                  "first": 1687176000,
+                  "second": 1687179600
+              },
+              "venue": {
+                  "id": 3385,
+                  "name": "Hong Kong Stadium",
+                  "city": "Hong Kong"
+              },
+              "status": {
+                  "long": "Second Half",
+                  "short": "2H",
+                  "elapsed": 87
+              }
+          },
+          "league": {
+              "id": 10,
+              "name": "Friendlies",
+              "country": "World",
+              "logo": "https://media-2.api-sports.io/football/leagues/10.png",
+              "flag": null,
+              "season": 2023,
+              "round": "Friendlies 1"
+          },
+          "teams": {
+              "home": {
+                  "id": 4460,
+                  "name": "Hong Kong",
+                  "logo": "https://media-3.api-sports.io/football/teams/4460.png",
+                  "winner": false
+              },
+              "away": {
+                  "id": 1564,
+                  "name": "Thailand",
+                  "logo": "https://media-1.api-sports.io/football/teams/1564.png",
+                  "winner": true
+              }
+          },
+          "goals": {
+              "home": 0,
+              "away": 1
+          },
+          "score": {
+              "halftime": {
+                  "home": 0,
+                  "away": 0
+              },
+              "fulltime": {
+                  "home": null,
+                  "away": null
+              },
+              "extratime": {
+                  "home": null,
+                  "away": null
+              },
+              "penalty": {
+                  "home": null,
+                  "away": null
+              }
+          },
+          "events": [
+              {
+                  "time": {
+                      "elapsed": 7,
+                      "extra": null
+                  },
+                  "team": {
+                      "id": 4460,
+                      "name": "Hong Kong",
+                      "logo": "https://media-2.api-sports.io/football/teams/4460.png"
+                  },
+                  "player": {
+                      "id": 110276,
+                      "name": "Huang Yang"
+                  },
+                  "assist": {
+                      "id": null,
+                      "name": null
+                  },
+                  "type": "Card",
+                  "detail": "Yellow Card",
+                  "comments": null
+              },
+              {
+                  "time": {
+                      "elapsed": 61,
+                      "extra": null
+                  },
+                  "team": {
+                      "id": 1564,
+                      "name": "Thailand",
+                      "logo": "https://media-2.api-sports.io/football/teams/1564.png"
+                  },
+                  "player": {
+                      "id": 33706,
+                      "name": "C. Laptrakul"
+                  },
+                  "assist": {
+                      "id": 48929,
+                      "name": "S. Sarachat"
+                  },
+                  "type": "subst",
+                  "detail": "Substitution 1",
+                  "comments": null
+              },
+              {
+                  "time": {
+                      "elapsed": 61,
+                      "extra": null
+                  },
+                  "team": {
+                      "id": 1564,
+                      "name": "Thailand",
+                      "logo": "https://media-3.api-sports.io/football/teams/1564.png"
+                  },
+                  "player": {
+                      "id": 60222,
+                      "name": "P. Charoenrattanapirom"
+                  },
+                  "assist": {
+                      "id": 49013,
+                      "name": "P. Notchaiya"
+                  },
+                  "type": "subst",
+                  "detail": "Substitution 2",
+                  "comments": null
+              },
+              {
+                  "time": {
+                      "elapsed": 63,
+                      "extra": null
+                  },
+                  "team": {
+                      "id": 1564,
+                      "name": "Thailand",
+                      "logo": "https://media-3.api-sports.io/football/teams/1564.png"
+                  },
+                  "player": {
+                      "id": 49387,
+                      "name": "T. Dangda"
+                  },
+                  "assist": {
+                      "id": null,
+                      "name": null
+                  },
+                  "type": "Goal",
+                  "detail": "Normal Goal",
+                  "comments": null
+              },
+              {
+                  "time": {
+                      "elapsed": 65,
+                      "extra": null
+                  },
+                  "team": {
+                      "id": 4460,
+                      "name": "Hong Kong",
+                      "logo": "https://media-3.api-sports.io/football/teams/4460.png"
+                  },
+                  "player": {
+                      "id": 110238,
+                      "name": "Wong Tsz-Ho"
+                  },
+                  "assist": {
+                      "id": 110259,
+                      "name": "Leung Kwun-Chung"
+                  },
+                  "type": "subst",
+                  "detail": "Substitution 1",
+                  "comments": null
+              },
+              {
+                  "time": {
+                      "elapsed": 65,
+                      "extra": null
+                  },
+                  "team": {
+                      "id": 4460,
+                      "name": "Hong Kong",
+                      "logo": "https://media-2.api-sports.io/football/teams/4460.png"
+                  },
+                  "player": {
+                      "id": 110206,
+                      "name": "M. Awal"
+                  },
+                  "assist": {
+                      "id": 110277,
+                      "name": "Law Tsz-Chun"
+                  },
+                  "type": "subst",
+                  "detail": "Substitution 2",
+                  "comments": null
+              },
+              {
+                  "time": {
+                      "elapsed": 65,
+                      "extra": null
+                  },
+                  "team": {
+                      "id": 4460,
+                      "name": "Hong Kong",
+                      "logo": "https://media-3.api-sports.io/football/teams/4460.png"
+                  },
+                  "player": {
+                      "id": 110202,
+                      "name": "C. R. Wu"
+                  },
+                  "assist": {
+                      "id": 110219,
+                      "name": "W. Wong"
+                  },
+                  "type": "subst",
+                  "detail": "Substitution 3",
+                  "comments": null
+              },
+              {
+                  "time": {
+                      "elapsed": 73,
+                      "extra": null
+                  },
+                  "team": {
+                      "id": 1564,
+                      "name": "Thailand",
+                      "logo": "https://media-3.api-sports.io/football/teams/1564.png"
+                  },
+                  "player": {
+                      "id": 49124,
+                      "name": "K. Kaman"
+                  },
+                  "assist": {
+                      "id": 49384,
+                      "name": "S. Yooyen"
+                  },
+                  "type": "subst",
+                  "detail": "Substitution 3",
+                  "comments": null
+              },
+              {
+                  "time": {
+                      "elapsed": 74,
+                      "extra": null
+                  },
+                  "team": {
+                      "id": 1564,
+                      "name": "Thailand",
+                      "logo": "https://media-3.api-sports.io/football/teams/1564.png"
+                  },
+                  "player": {
+                      "id": 49380,
+                      "name": "W. Pomphan"
+                  },
+                  "assist": {
+                      "id": 49117,
+                      "name": "C. Promsrikaew"
+                  },
+                  "type": "subst",
+                  "detail": "Substitution 4",
+                  "comments": null
+              },
+              {
+                  "time": {
+                      "elapsed": 80,
+                      "extra": null
+                  },
+                  "team": {
+                      "id": 4460,
+                      "name": "Hong Kong",
+                      "logo": "https://media-2.api-sports.io/football/teams/4460.png"
+                  },
+                  "player": {
+                      "id": 73318,
+                      "name": "Yu Wai-Lim"
+                  },
+                  "assist": {
+                      "id": 110296,
+                      "name": "V. Nunez"
+                  },
+                  "type": "subst",
+                  "detail": "Substitution 4",
+                  "comments": null
+              },
+              {
+                  "time": {
+                      "elapsed": 80,
+                      "extra": null
+                  },
+                  "team": {
+                      "id": 4460,
+                      "name": "Hong Kong",
+                      "logo": "https://media-2.api-sports.io/football/teams/4460.png"
+                  },
+                  "player": {
+                      "id": 110245,
+                      "name": "Y. Ju"
+                  },
+                  "assist": {
+                      "id": 110209,
+                      "name": "C. Tan"
+                  },
+                  "type": "subst",
+                  "detail": "Substitution 5",
+                  "comments": null
+              },
+              {
+                  "time": {
+                      "elapsed": 80,
+                      "extra": null
+                  },
+                  "team": {
+                      "id": 4460,
+                      "name": "Hong Kong",
+                      "logo": "https://media-3.api-sports.io/football/teams/4460.png"
+                  },
+                  "player": {
+                      "id": null,
+                      "name": "H. M. Chang"
+                  },
+                  "assist": {
+                      "id": 110257,
+                      "name": "M. Sun"
+                  },
+                  "type": "subst",
+                  "detail": "Substitution 6",
+                  "comments": null
+              }
+          ]
+      },
+      {
+          "fixture": {
+              "id": 1028654,
+              "referee": null,
+              "timezone": "UTC",
+              "date": "2023-06-19T12:30:00+00:00",
+              "timestamp": 1687177800,
+              "periods": {
+                  "first": 1687177800,
+                  "second": 1687181400
+              },
+              "venue": {
+                  "id": 3892,
+                  "name": "Stadion Utama Gelora Bung Karno",
+                  "city": "Jakarta"
+              },
+              "status": {
+                  "long": "Second Half",
+                  "short": "2H",
+                  "elapsed": 54
+              }
+          },
+          "league": {
+              "id": 10,
+              "name": "Friendlies",
+              "country": "World",
+              "logo": "https://media-2.api-sports.io/football/leagues/10.png",
+              "flag": null,
+              "season": 2023,
+              "round": "Friendlies 1"
+          },
+          "teams": {
+              "home": {
+                  "id": 1571,
+                  "name": "Indonesia",
+                  "logo": "https://media-1.api-sports.io/football/teams/1571.png",
+                  "winner": false
+              },
+              "away": {
+                  "id": 26,
+                  "name": "Argentina",
+                  "logo": "https://media-1.api-sports.io/football/teams/26.png",
+                  "winner": true
+              }
+          },
+          "goals": {
+              "home": 0,
+              "away": 1
+          },
+          "score": {
+              "halftime": {
+                  "home": 0,
+                  "away": 1
+              },
+              "fulltime": {
+                  "home": null,
+                  "away": null
+              },
+              "extratime": {
+                  "home": null,
+                  "away": null
+              },
+              "penalty": {
+                  "home": null,
+                  "away": null
+              }
+          },
+          "events": [
+              {
+                  "time": {
+                      "elapsed": 38,
+                      "extra": null
+                  },
+                  "team": {
+                      "id": 26,
+                      "name": "Argentina",
+                      "logo": "https://media-3.api-sports.io/football/teams/26.png"
+                  },
+                  "player": {
+                      "id": 271,
+                      "name": "L. Paredes"
+                  },
+                  "assist": {
+                      "id": 6002,
+                      "name": "E. Palacios"
+                  },
+                  "type": "Goal",
+                  "detail": "Normal Goal",
+                  "comments": null
+              },
+              {
+                  "time": {
+                      "elapsed": 46,
+                      "extra": null
+                  },
+                  "team": {
+                      "id": 1571,
+                      "name": "Indonesia",
+                      "logo": "https://media-1.api-sports.io/football/teams/1571.png"
+                  },
+                  "player": {
+                      "id": 29577,
+                      "name": "D. Sulistyawan"
+                  },
+                  "assist": {
+                      "id": 29461,
+                      "name": "M. Drajad"
+                  },
+                  "type": "subst",
+                  "detail": "Substitution 1",
+                  "comments": null
+              },
+              {
+                  "time": {
+                      "elapsed": 46,
+                      "extra": null
+                  },
+                  "team": {
+                      "id": 1571,
+                      "name": "Indonesia",
+                      "logo": "https://media-2.api-sports.io/football/teams/1571.png"
+                  },
+                  "player": {
+                      "id": 206587,
+                      "name": "P. Arhan"
+                  },
+                  "assist": {
+                      "id": 92968,
+                      "name": "S. Pattynama"
+                  },
+                  "type": "subst",
+                  "detail": "Substitution 2",
+                  "comments": null
+              }
+          ]
+      },
+      {
+          "fixture": {
+              "id": 1028665,
+              "referee": null,
+              "timezone": "UTC",
+              "date": "2023-06-19T12:00:00+00:00",
+              "timestamp": 1687176000,
+              "periods": {
+                  "first": 1687176000,
+                  "second": 1687179600
+              },
+              "venue": {
+                  "id": 19610,
+                  "name": "Wiener Neustadt Ergo Arena",
+                  "city": "Wiener Neustadt"
+              },
+              "status": {
+                  "long": "Second Half",
+                  "short": "2H",
+                  "elapsed": 88
+              }
+          },
+          "league": {
+              "id": 10,
+              "name": "Friendlies",
+              "country": "World",
+              "logo": "https://media-2.api-sports.io/football/leagues/10.png",
+              "flag": null,
+              "season": 2023,
+              "round": "Friendlies 2"
+          },
+          "teams": {
+              "home": {
+                  "id": 2385,
+                  "name": "Jamaica",
+                  "logo": "https://media-3.api-sports.io/football/teams/2385.png",
+                  "winner": false
+              },
+              "away": {
+                  "id": 1548,
+                  "name": "Jordan",
+                  "logo": "https://media-1.api-sports.io/football/teams/1548.png",
+                  "winner": true
+              }
+          },
+          "goals": {
+              "home": 1,
+              "away": 2
+          },
+          "score": {
+              "halftime": {
+                  "home": 1,
+                  "away": 0
+              },
+              "fulltime": {
+                  "home": null,
+                  "away": null
+              },
+              "extratime": {
+                  "home": null,
+                  "away": null
+              },
+              "penalty": {
+                  "home": null,
+                  "away": null
+              }
+          },
+          "events": [
+              {
+                  "time": {
+                      "elapsed": 21,
+                      "extra": null
+                  },
+                  "team": {
+                      "id": 2385,
+                      "name": "Jamaica",
+                      "logo": "https://media-1.api-sports.io/football/teams/2385.png"
+                  },
+                  "player": {
+                      "id": 138807,
+                      "name": "D. Bernard"
+                  },
+                  "assist": {
+                      "id": null,
+                      "name": null
+                  },
+                  "type": "Card",
+                  "detail": "Yellow Card",
+                  "comments": null
+              },
+              {
+                  "time": {
+                      "elapsed": 39,
+                      "extra": null
+                  },
+                  "team": {
+                      "id": 2385,
+                      "name": "Jamaica",
+                      "logo": "https://media-3.api-sports.io/football/teams/2385.png"
+                  },
+                  "player": {
+                      "id": 50748,
+                      "name": "C. Burke"
+                  },
+                  "assist": {
+                      "id": null,
+                      "name": null
+                  },
+                  "type": "Goal",
+                  "detail": "Penalty",
+                  "comments": null
+              },
+              {
+                  "time": {
+                      "elapsed": 56,
+                      "extra": null
+                  },
+                  "team": {
+                      "id": 1548,
+                      "name": "Jordan",
+                      "logo": "https://media-2.api-sports.io/football/teams/1548.png"
+                  },
+                  "player": {
+                      "id": 123530,
+                      "name": "M. Al Mardi"
+                  },
+                  "assist": {
+                      "id": null,
+                      "name": null
+                  },
+                  "type": "Goal",
+                  "detail": "Normal Goal",
+                  "comments": null
+              },
+              {
+                  "time": {
+                      "elapsed": 63,
+                      "extra": null
+                  },
+                  "team": {
+                      "id": 1548,
+                      "name": "Jordan",
+                      "logo": "https://media-3.api-sports.io/football/teams/1548.png"
+                  },
+                  "player": {
+                      "id": 164026,
+                      "name": "A. Olwan"
+                  },
+                  "assist": {
+                      "id": null,
+                      "name": null
+                  },
+                  "type": "Goal",
+                  "detail": "Normal Goal",
+                  "comments": null
+              },
+              {
+                  "time": {
+                      "elapsed": 75,
+                      "extra": null
+                  },
+                  "team": {
+                      "id": 2385,
+                      "name": "Jamaica",
+                      "logo": "https://media-3.api-sports.io/football/teams/2385.png"
+                  },
+                  "player": {
+                      "id": null,
+                      "name": null
+                  },
+                  "assist": {
+                      "id": null,
+                      "name": null
+                  },
+                  "type": "Card",
+                  "detail": "Yellow Card",
+                  "comments": null
+              },
+              {
+                  "time": {
+                      "elapsed": 77,
+                      "extra": null
+                  },
+                  "team": {
+                      "id": 1548,
+                      "name": "Jordan",
+                      "logo": "https://media-3.api-sports.io/football/teams/1548.png"
+                  },
+                  "player": {
+                      "id": null,
+                      "name": null
+                  },
+                  "assist": {
+                      "id": null,
+                      "name": null
+                  },
+                  "type": "Card",
+                  "detail": "Yellow Card",
+                  "comments": null
+              },
+              {
+                  "time": {
+                      "elapsed": 78,
+                      "extra": null
+                  },
+                  "team": {
+                      "id": 1548,
+                      "name": "Jordan",
+                      "logo": "https://media-3.api-sports.io/football/teams/1548.png"
+                  },
+                  "player": {
+                      "id": null,
+                      "name": null
+                  },
+                  "assist": {
+                      "id": null,
+                      "name": null
+                  },
+                  "type": "Card",
+                  "detail": "Yellow Card",
+                  "comments": null
+              }
+          ]
+      },
+      {
+          "fixture": {
+              "id": 1035019,
+              "referee": null,
+              "timezone": "UTC",
+              "date": "2023-06-19T12:00:00+00:00",
+              "timestamp": 1687176000,
+              "periods": {
+                  "first": 1687176000,
+                  "second": 1687179600
+              },
+              "venue": {
+                  "id": 12708,
+                  "name": "BG Stadium",
+                  "city": "Thanyaburi, Pathum Thani"
+              },
+              "status": {
+                  "long": "Second Half",
+                  "short": "2H",
+                  "elapsed": 84
+              }
+          },
+          "league": {
+              "id": 1012,
+              "name": "AFC U17 Asian Cup",
+              "country": "World",
+              "logo": "https://media-3.api-sports.io/football/leagues/1012.png",
+              "flag": null,
+              "season": 2023,
+              "round": "Group Stage - 2"
+          },
+          "teams": {
+              "home": {
+                  "id": 21439,
+                  "name": "Afghanistan U17",
+                  "logo": "https://media-2.api-sports.io/football/teams/21439.png",
+                  "winner": false
+              },
+              "away": {
+                  "id": 12512,
+                  "name": "Korea Republic U17",
+                  "logo": "https://media-2.api-sports.io/football/teams/12512.png",
+                  "winner": true
+              }
+          },
+          "goals": {
+              "home": 0,
+              "away": 4
+          },
+          "score": {
+              "halftime": {
+                  "home": 0,
+                  "away": 3
+              },
+              "fulltime": {
+                  "home": null,
+                  "away": null
+              },
+              "extratime": {
+                  "home": null,
+                  "away": null
+              },
+              "penalty": {
+                  "home": null,
+                  "away": null
+              }
+          },
+          "events": [
+              {
+                  "time": {
+                      "elapsed": 13,
+                      "extra": null
+                  },
+                  "team": {
+                      "id": 12512,
+                      "name": "Korea Republic U17",
+                      "logo": "https://media-2.api-sports.io/football/teams/12512.png"
+                  },
+                  "player": {
+                      "id": null,
+                      "name": "L. Hyun-Sub"
+                  },
+                  "assist": {
+                      "id": null,
+                      "name": null
+                  },
+                  "type": "Goal",
+                  "detail": "Normal Goal",
+                  "comments": null
+              },
+              {
+                  "time": {
+                      "elapsed": 24,
+                      "extra": null
+                  },
+                  "team": {
+                      "id": 12512,
+                      "name": "Korea Republic U17",
+                      "logo": "https://media-2.api-sports.io/football/teams/12512.png"
+                  },
+                  "player": {
+                      "id": null,
+                      "name": "M. Noorzai"
+                  },
+                  "assist": {
+                      "id": null,
+                      "name": null
+                  },
+                  "type": "Goal",
+                  "detail": "Own Goal",
+                  "comments": null
+              },
+              {
+                  "time": {
+                      "elapsed": 34,
+                      "extra": null
+                  },
+                  "team": {
+                      "id": 12512,
+                      "name": "Korea Republic U17",
+                      "logo": "https://media-2.api-sports.io/football/teams/12512.png"
+                  },
+                  "player": {
+                      "id": null,
+                      "name": "Yun Do-Young"
+                  },
+                  "assist": {
+                      "id": null,
+                      "name": null
+                  },
+                  "type": "Goal",
+                  "detail": "Normal Goal",
+                  "comments": null
+              },
+              {
+                  "time": {
+                      "elapsed": 54,
+                      "extra": null
+                  },
+                  "team": {
+                      "id": 12512,
+                      "name": "Korea Republic U17",
+                      "logo": "https://media-2.api-sports.io/football/teams/12512.png"
+                  },
+                  "player": {
+                      "id": null,
+                      "name": "Yun Do-Young"
+                  },
+                  "assist": {
+                      "id": null,
+                      "name": null
+                  },
+                  "type": "Goal",
+                  "detail": "Normal Goal",
+                  "comments": null
+              }
+          ]
+      },
+      {
+          "fixture": {
+              "id": 1035610,
+              "referee": null,
+              "timezone": "UTC",
+              "date": "2023-06-19T12:30:00+00:00",
+              "timestamp": 1687177800,
+              "periods": {
+                  "first": 1687177800,
+                  "second": 1687181400
+              },
+              "venue": {
+                  "id": null,
+                  "name": null,
+                  "city": null
+              },
+              "status": {
+                  "long": "Second Half",
+                  "short": "2H",
+                  "elapsed": 59
+              }
+          },
+          "league": {
+              "id": 10,
+              "name": "Friendlies",
+              "country": "World",
+              "logo": "https://media-2.api-sports.io/football/leagues/10.png",
+              "flag": null,
+              "season": 2023,
+              "round": "Friendlies 1"
+          },
+          "teams": {
+              "home": {
+                  "id": 10959,
+                  "name": "Tajikistan U23",
+                  "logo": "https://media-3.api-sports.io/football/teams/10959.png",
+                  "winner": null
+              },
+              "away": {
+                  "id": 10934,
+                  "name": "Hong Kong U23",
+                  "logo": "https://media-2.api-sports.io/football/teams/10934.png",
+                  "winner": null
+              }
+          },
+          "goals": {
+              "home": 0,
+              "away": 0
+          },
+          "score": {
+              "halftime": {
+                  "home": 0,
+                  "away": 0
+              },
+              "fulltime": {
+                  "home": null,
+                  "away": null
+              },
+              "extratime": {
+                  "home": null,
+                  "away": null
+              },
+              "penalty": {
+                  "home": null,
+                  "away": null
+              }
+          },
+          "events": [
+              {
+                  "time": {
+                      "elapsed": 41,
+                      "extra": null
+                  },
+                  "team": {
+                      "id": 10934,
+                      "name": "Hong Kong U23",
+                      "logo": "https://media-2.api-sports.io/football/teams/10934.png"
+                  },
+                  "player": {
+                      "id": null,
+                      "name": "Y. Leung"
+                  },
+                  "assist": {
+                      "id": null,
+                      "name": null
+                  },
+                  "type": "Card",
+                  "detail": "Yellow Card",
+                  "comments": null
+              },
+              {
+                  "time": {
+                      "elapsed": 54,
+                      "extra": null
+                  },
+                  "team": {
+                      "id": 10934,
+                      "name": "Hong Kong U23",
+                      "logo": "https://media-3.api-sports.io/football/teams/10934.png"
+                  },
+                  "player": {
+                      "id": null,
+                      "name": "K. Yim"
+                  },
+                  "assist": {
+                      "id": null,
+                      "name": null
+                  },
+                  "type": "Card",
+                  "detail": "Yellow Card",
+                  "comments": null
+              }
+          ]
+      }
+  ]
+}
